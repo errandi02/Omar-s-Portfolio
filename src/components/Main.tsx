@@ -16,7 +16,7 @@ function Main() {
             <a href="https://www.linkedin.com/in/omar-errandi-a96ba7197/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
           <h1>Omar Errandi</h1>
-          <p>Full Stack Engineer</p>
+          <p>Computer Science Engineer</p>
 
           <div className="mobile_social_icons">
             <a href="https://www.linkedin.com/in/omar-errandi-a96ba7197/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>

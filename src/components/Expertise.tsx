@@ -11,7 +11,7 @@ const labelsFirst = [
     "SQL",
     "HTML",
     "CSS",
-    "MDX",
+    //"MDX",
     "SQLServer",
     "Postman",
     "Laravel PHP",
@@ -50,7 +50,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
                     <h3>Full Stack Development</h3>
-                    <p>Proficient in building, testing, and maintaining web applications using modern frameworks and technologies. Experienced in both backend and frontend development, as well as database management and system integration.</p>
+                    <p>Skilled in developing, testing, and maintaining web applications with modern frameworks. Experienced in both backend and frontend, plus database management and system integration.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -62,7 +62,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
                     <h3>Agile Methodologies</h3>
-                    <p>Skilled in working within Agile frameworks to manage projects efficiently. Experienced in tools like Jira for testing and defect management, coordinating deployments via ServiceNow, and ensuring smooth collaboration with clients and cross-functional teams.</p>
+                    <p>Skilled in Agile project management, using tools like Jira for testing and ServiceNow for deployments. Experienced in collaborating with clients and cross-functional teams.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (

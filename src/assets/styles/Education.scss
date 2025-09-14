@@ -1,0 +1,90 @@
+#education {
+  .education_wrapper {
+    padding: 2rem 0;
+
+    .title {
+      font-family: 'DomaineDispNar-Medium', sans-serif;
+      margin-bottom: 2rem;
+    }
+
+    .edu-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+
+    .edu-card {
+      flex: 1 1 40%;
+      min-width: 280px;
+      background: #fff;
+      border-radius: 1rem;
+      padding: 1.25rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,.06);
+      border: 1px solid rgba(0,0,0,.06);
+
+      .header {
+        display: flex;
+        gap: .75rem;
+        align-items: center;
+
+        .icon {
+          font-size: 1.6rem;
+          color: #5000ca;
+        }
+
+        .degree {
+          font-weight: 700;
+        }
+
+        .school {
+          opacity: .9;
+          font-size: .95rem;
+          color: black;
+        }
+      }
+
+      .meta {
+        margin: .75rem 0;
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        font-size: .9rem;
+        opacity: .9;
+
+        .meta-item {
+          display: flex;
+          align-items: center;
+          gap: .35rem;
+
+          .meta-icon {
+            font-size: 1rem;
+            opacity: .8;
+          }
+        }
+      }
+
+      .highlights {
+        margin: 0 0 .5rem 1.1rem;
+        li { line-height: 1.4; }
+      }
+
+      .tags {
+        display: flex;
+        gap: .4rem;
+        flex-wrap: wrap;
+
+        .MuiChip-root {
+          border-color: #5000ca;
+        }
+      }
+    }
+
+    @media (max-width: 768px) {
+      .edu-grid {
+        flex-direction: column;
+        align-items: stretch;
+      }
+    }
+  }
+}

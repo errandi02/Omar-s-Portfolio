@@ -16,17 +16,17 @@ import '../assets/styles/Project.scss';
 function Project() {
     return(
     <div className="projects-container" id="projects">
-        <h1>Personal Projects</h1>
+        <h1>Projects</h1>
         <div className="projects-grid">
             <div className="project">
                 <a href="https://www.tenniscentercourt.com/" target="_blank" rel="noreferrer"><img src={TennisCenterCourt} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.tenniscentercourt.com/" target="_blank" rel="noreferrer"><h2>Tennis Center Court</h2></a>
-                <p>Developed and manage a dynamic tennis blog, featuring articles, tips, and reviews tailored to tennis enthusiasts. Leveraged modern web technologies to create a user-friendly interface and engaging content that resonates with the tennis community.</p>
+                <p>Develop and manage a tennis blog with articles, tips, and reviews. Built with modern web technologies to offer a user-friendly interface and engaging content for the tennis community.  </p>
             </div>
             <div className="project">
                 <a  href="https://www.youtube.com/@LOFIMOTORS" target="_blank" rel="noreferrer"><img src={LofiMotors} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.youtube.com/@LOFIMOTORS" target="_blank" rel="noreferrer"><h2>LoFi Motors</h2></a>
-                <p>Content creator for the LoFi Motors YouTube channel, producing AI-generated melodies and visually captivating animations. Combined AI tools with creative expertise to deliver immersive LoFi experiences, blending futuristic cityscapes, chill beats, and relaxing vibes for an ever-growing audience.</p>
+                <p>Content creator for LoFi Motors on YouTube, producing AI-generated music and animated visuals. Blend AI tools with creativity to deliver immersive LoFi experiences with futuristic cityscapes, chill beats, and relaxing vibes.</p>
             </div>
         </div>
     </div>
